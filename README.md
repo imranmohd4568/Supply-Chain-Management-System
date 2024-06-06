@@ -23,16 +23,15 @@ DEFINING METHODS:
 
 PROOF OF STAKE(POS):
 
-    The Proof of Stake (PoS) consensus method is employed in blockchain networks to reach consensus over the blockchain's current state and to validate transactions without the usage of resource-intensive mining operations. The quantity of cryptocurrency tokens that validators have and are prepared to "stake" as collateral determines who gets to produce new blocks and validate transactions in a PoS system.
+The Proof of Stake (PoS) consensus method is employed in blockchain networks to reach consensus over the blockchain's current state and to validate transactions without the usage of resource-intensive mining operations. The quantity of cryptocurrency tokens that validators have and are prepared to "stake" as collateral determines who gets to produce new blocks and validate transactions in a PoS system
 
+   
 
 SHA-256 ALGORITHM:
 
 SHA 256 is a part of the SHA 2 family of algorithms, where SHA stands for Secure Hash Algorithm. Published in 2001, it was a joint effort between the NSA and NIST to introduce a successor to the SHA 1 family, which was slowly losing strength against brute force attacks. 
 ● The significance of the 256 in the name stands for the final hash digest value, i.e. irrespective of the size of plaintext/cleartext, the hash value will always be 256 bits.
 
-                   ![image](https://github.com/imranmohd4568/Supply-Chain-Management-System/assets/132393607/bb375867-aca8-4a0d-9014-1c894c5b68c1)
-    
 
 MERKLE TREE:
 
