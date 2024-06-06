@@ -31,8 +31,25 @@ SHA-256 ALGORITHM:
 SHA 256 is a part of the SHA 2 family of algorithms, where SHA stands for Secure Hash Algorithm. Published in 2001, it was a joint effort between the NSA and NIST to introduce a successor to the SHA 1 family, which was slowly losing strength against brute force attacks. 
 ● The significance of the 256 in the name stands for the final hash digest value, i.e. irrespective of the size of plaintext/cleartext, the hash value will always be 256 bits.
 
-                       
+                   ![image](https://github.com/imranmohd4568/Supply-Chain-Management-System/assets/132393607/bb375867-aca8-4a0d-9014-1c894c5b68c1)
+    
 
 MERKLE TREE:
 
 In cryptography and computer science, a hash tree or Merkle tree is a tree in which every "leaf" (node) is labelled with the cryptographic hash of a data block, and every node that is not a leaf (called a branch, inner node, or inode) is labelled with the cryptographic hash of the labels of its child nodes. A hash tree allows efficient and secure verification of the contents of a large data structure. A hash tree is a generalisation of a hash list and a hash chain. Demonstrating that a leaf node is a part of a given binary hash tree requires computing a number of hashes proportional to the logarithm of the number of leaf nodes in the tree. Conversely, in a hash list, the number is proportional to the number of leaf nodes itself. A Merkle tree is therefore an efficient example of a cryptographic commitment scheme, in which the root of the tree is seen as a commitment and leaf nodes may be revealed and proven to be part of the original commitment.
+
+Basic Structure of a transaction that is expected:
+
+Manufacture ID/name, Distributor ID/name, Client ID/name, Amount(optional),
+Timestamp of the transaction.
+{
+Distributor (Di) got from the manufacturer -> Timestamp 1
+Distributor dispatched ->Timestamp 2
+Client (Ci) received -> Timestamp 3
+}
+
+
+Basic Structure of a Block in the blockchain:
+Timestamp, Merkle root, Hash of the previous block, etc
+
+
